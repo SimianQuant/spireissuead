@@ -2,7 +2,7 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := projectName,
-    organization := "com.simianquant.spireissues",
+    organization := "com.simianquant.spireissuead",
     version := Settings.versions.project,
     scalaVersion := Settings.versions.scala,
     scalacOptions ++= List(
