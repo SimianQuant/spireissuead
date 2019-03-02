@@ -1,8 +1,8 @@
 lazy val root = project
   .in(file("."))
   .settings(
-    name := projectName,
-    organization := "com.simianquant.spireissuead",
+    name := "ad",
+    organization := "com.simianquant.spireissue",
     version := Settings.versions.project,
     scalaVersion := Settings.versions.scala,
     scalacOptions ++= List(
@@ -27,5 +27,6 @@ lazy val root = project
       "-Ywarn-dead-code",
       "-Ywarn-value-discard",
       "-Ywarn-unused-import"
-    )
+    ),
+    libraryDependencies +=  "org.typelevel" %% "spire" % Settings.versions.spire
   )
