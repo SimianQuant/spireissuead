@@ -28,5 +28,5 @@ lazy val root = project
       "-Ywarn-value-discard",
       "-Ywarn-unused-import"
     ),
-    libraryDependencies +=  "org.typelevel" %% "spire" % Settings.versions.spire
+    libraryDependencies += "org.typelevel" %% "spire" % Settings.versions.spire
   )
