@@ -1,4 +1,4 @@
-package simianquant.spireissue
+package simianquant.spireissuead
 
 import collection.mutable
 import spire.implicits._
