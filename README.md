@@ -5,3 +5,4 @@ Spire Issues - Algorithmic Differentiation
 
 1. Jets are not immutable. This breaks referential transparency and makes maps/sets unstable. 
 2. Floor are implemented incorrectly. The derivative of the floor of a function is either zero or not defined, and not the floor of the derivatives of the composed function
+3. Division is implemented as multiplication by the multiplicative inverse
